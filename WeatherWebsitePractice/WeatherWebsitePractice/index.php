@@ -29,7 +29,7 @@
     $json_string = json_encode($result, JSON_PRETTY_PRINT);
 
     //Close the connection so we don't leave open ports on the PHP server
-    wcurl_close($ch) ;
+    curl_close($ch) ;
 
     $times = $result->hourly->time;
     $temps = $result->hourly->temperature_2m;
