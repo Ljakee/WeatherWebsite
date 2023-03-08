@@ -1,0 +1,11 @@
+html, body {
+    font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+    text-decoration:underline;
+}
+
+.container {
+    justify-content: space-evenly;
+}
